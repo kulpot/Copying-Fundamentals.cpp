@@ -5,6 +5,7 @@
 int main() {
 	int x = 1;
 	int y = x;
+	y = 2;
 
 	std::cout << "x = " << x << '\n';
 	std::cout << "y = " << y << '\n';
