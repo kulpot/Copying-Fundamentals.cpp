@@ -10,9 +10,11 @@ int square(int num) {
 
 int main() {
 	int x = 5;
-	square(x);
+	//square(x);
+	int y = square(x);
 
-	std::cout << "x = " << x << '\n';
+	//std::cout << "x = " << x << '\n';
+	std::cout << "y = " << y << '\n';
 
 
 
