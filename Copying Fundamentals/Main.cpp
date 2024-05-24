@@ -22,7 +22,8 @@ public:
 int main() {
 	Point p1{ 1.0, 2.0 };
 	Point p2 = p1;
-	
+	p2.x = 5;
+
 	std::cout << "p1.x = " << p1.x << " p1.y = " << p1.y << '\n';
 	std::cout << "p2.x = " << p2.x << " p2.y = " << p2.y << '\n';
 
