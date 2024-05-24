@@ -19,9 +19,11 @@ public:
 	}
 };
 
-void scale(Point p, double factor) {
-	p.x *= factor;
-	p.y *= factor;
+//void scale(Point p, double factor) {
+Point scale(Point p, double factor) {
+	return Point{ p.x * factor, p.y * factor };
+	//p.y *= factor;
+	//p.x *= factor;
 }
 
 int main() {
