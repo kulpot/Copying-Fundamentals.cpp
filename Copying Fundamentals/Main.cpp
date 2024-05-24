@@ -11,6 +11,7 @@ int main() {
 	//y = 2;
 	int y = 3;
 	y = x;
+	x = 2;
 
 	std::cout << "x = " << x << '\n';
 	std::cout << "y = " << y << '\n';
