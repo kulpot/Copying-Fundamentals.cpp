@@ -19,6 +19,10 @@ public:
 	}
 };
 
+void scale(Point p, double factor) {
+
+}
+
 int main() {
 	Point p1{ 1.0, 2.0 };
 	Point p2 = p1;
