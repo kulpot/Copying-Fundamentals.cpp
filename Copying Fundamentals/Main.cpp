@@ -20,7 +20,8 @@ public:
 };
 
 void scale(Point p, double factor) {
-
+	p.x *= factor;
+	p.y *= factor;
 }
 
 int main() {
