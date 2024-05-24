@@ -2,8 +2,10 @@
 
 //Copying Fundamentals | C++ Tutorials //ref link:https://www.youtube.com/watch?v=yXObZfT_e4w&list=PLFk1_lkqT8MaImkuU0ArJ6_dbr9nEN46a
 
-void square(int num) {
-	num *= num;
+//void square(int num) {
+int square(int num) {
+	//num *= num;
+	return num * num;
 }
 
 int main() {
