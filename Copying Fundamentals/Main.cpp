@@ -10,7 +10,8 @@
 
 class Point {
 public:
-
+	double x;
+	double y;
 };
 
 int main() {
