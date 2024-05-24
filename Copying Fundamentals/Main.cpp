@@ -20,7 +20,7 @@ public:
 };
 
 int main() {
-	
+	Point p1{ 1.0, 2.0 };
 	
 	
 	
