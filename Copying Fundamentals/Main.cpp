@@ -12,6 +12,10 @@ class Point {
 public:
 	double x;
 	double y;
+
+	Point(double initX, double initY) {
+
+	}
 };
 
 int main() {
