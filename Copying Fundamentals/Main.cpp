@@ -5,7 +5,8 @@
 int main() {
 	int x = 1;
 	//int y = x;
-	int y(x);
+	int y{ x };
+	//int y(x);
 	//int y = x;
 	//y = 2;
 
