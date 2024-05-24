@@ -14,7 +14,8 @@ public:
 	double y;
 
 	Point(double initX, double initY) {
-
+		x = initX;
+		y = initY;
 	}
 };
 
