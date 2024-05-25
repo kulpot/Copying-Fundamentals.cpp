@@ -32,6 +32,7 @@ int main() {
 	std::vector<int> v2 = v1;
 
 
+	v1[0] = 5;
 
 
 //	Point p1{ 1.0, 2.0 };
