@@ -34,6 +34,7 @@ int main() {
 
 	v1[0] = 5;
 
+	std::cout << v2[0] << '\n';
 
 //	Point p1{ 1.0, 2.0 };
 //	Point p2 = scale(p1, 10.0);
